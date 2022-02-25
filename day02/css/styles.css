@@ -46,6 +46,7 @@ p {
     width: 50%;
     position: relative;
     display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* max-width */
