@@ -1,0 +1,145 @@
+
+/* 
+types
+
+have a point system
+If the element has inline styling, that automatically1 wins (1,0,0,0 points)
+For each ID value, apply 0,1,0,0 points
+For each class value (or pseudo-class or attribute selector), apply 0,0,1,0 points
+For each element reference, apply 0,0,0,1 point
+
+
+
+none : . # @
+-----------
+
+none 
+-----------
+body
+div
+p
+h1
+ul
+li
+a
+img
+input
+button
+
+: psudo selector (1)
+-----------------
+:hover
+:active
+:focus
+:visited
+:link
+:before
+:after
+:first-child
+:last-child
+:nth-child
+:nth-last-child
+:nth-of-type
+:nth-last-of-type
+:first-of-type
+:last-of-type
+:only-child
+:only-of-type
+:empty
+:target
+:enabled
+:disabled
+:checked
+:not
+:contains
+:lang
+:root
+:nth-match
+:nth-type
+:nth-last-type
+:nth-last-match
+:first-letter
+:first-line
+
+. class (5)
+-----------------
+.list
+.link
+.image
+
+# id (10)
+-----------------
+#navigation
+#hero
+#products
+
+@ media
+-----------------
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+
+*/
+
+
+:root{
+    --primary-family: Arial, Helvetica, sans-serif;
+    --secondary-family: "Times New Roman", Times, serif;
+    --third-family: "Courier New", Courier, monospace;
+
+    --primary-color: yellow;
+    --secondary-color: purple;
+    --third-color: aqua;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-family);
+}
+
+h1{
+    font-family: var(--third-family)
+}
+#best {
+    color: black;
+}
+
+ .favorites {
+    color: white;
+}
+
+p{
+    font-family: var(--secondary-family);
+    color: green;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        background-color: var(--secondary-color)
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: var(--third-color)
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: var(--third-color)
+    }
+}
+
+
+
