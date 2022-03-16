@@ -1,0 +1,50 @@
+/*! Bootstrap 5 custom build by Themestr.app */
+
+$primary:red;
+$secondary:purple;
+$success:green;
+$info:yellow;
+$warning:pink;
+$danger:grey;
+
+.box {
+  min-width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    display: block;
+    flex-grow: 1;
+}
+
+.one {
+  background-color: black;
+  order: 1;
+}
+.two {
+  background-color: red;
+  order: 2;
+}
+.three {
+  background-color: green;
+  order: 3;
+}
+
+.parent-flex {
+  border: 5px solid red;
+  display: flex;
+
+
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+
+}
+
+
+
+
+
+  
+  
+
+
+
