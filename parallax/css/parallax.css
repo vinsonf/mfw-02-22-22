@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+
+.background, .foreground {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.viewbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    transform-style: preserve-3d;
+    z-index: -1;
+    width: 100vw;
+}
+
+
+section {
+    background-color: rgba(43, 31, 31, 1);
+    color: white;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 7rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 17px black;
+}
+
+.background {
+    transform: translateZ(-10px) scale(2);
+}
+
+.foreground {
+    transform: translateZ(-5px) scale(1.5);
+}
