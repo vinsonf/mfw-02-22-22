@@ -1,0 +1,22 @@
+:root {
+    --primary: purple
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.table>:not(caption)>*>*  {
+    background-color: var(--primary)!important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    background-color: var(--primary)!important;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    background-color: var(--primary)!important;
+}
