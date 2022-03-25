@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --color-primary: red;
+    --color-secondary: #0000ff;
+    --color-tertiary: aqua;
+    --color-black: rgba(0, 0, 0, 0.852);
+    --color-white: rgb(249, 236, 236);
+
+    --font-family-primary: 'Lobster', cursive;
+
+    --padding-basic: 1rem;
+    --padding-large: 2rem;
+    
+}

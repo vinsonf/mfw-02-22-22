@@ -1,0 +1,6 @@
+
+.hero {
+   
+    /* background-color: var(--color-secondary); */
+    background-image: var(--cat-image)
+}

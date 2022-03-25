@@ -1,0 +1,16 @@
+nav{
+    ul {
+        list-style: none;
+        display: flex;
+        li {
+            margin-right: 1rem;
+            a {
+                color: $primary;
+                text-decoration: none;
+                &:hover {
+                    color: $secondary;
+                }
+            }
+        }
+    }
+}

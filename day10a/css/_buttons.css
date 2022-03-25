@@ -1,0 +1,16 @@
+@import url('./_variables.css');
+
+.btn-small {
+    padding: 2px 10px;
+    font-size: 11px;
+    line-height: 1.5;
+    border-radius: 3px;
+   
+}
+.btn-large {
+    padding: var(--padding-basic) var(--padding-large);
+    font-size: 3rem;
+    line-height: 1.33;
+    border-radius: 6px;
+    font-weight: 900;
+}

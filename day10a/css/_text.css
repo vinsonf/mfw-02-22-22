@@ -1,0 +1,22 @@
+@import url('./_variables.css');
+.text-center {
+  text-align: center;
+}
+
+.ff-primary {
+    font-family: var(--font-family-primary);
+    font-weight: 700;
+}
+
+.fs-small {
+    font-size: 1rem;
+}
+.fs-medium {
+    font-size: 1.4rem;
+}
+.fs-large {
+    font-size: 3rem;
+}
+.fs-x-large {
+    font-size: 4rem;
+}
